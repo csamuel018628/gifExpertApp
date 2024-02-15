@@ -10,7 +10,10 @@ const gifs = data.map( img => ({
     title: img.title,
     url: img.images.downsized_medium.url
 
-}));
+   })
+);
     
     return gifs;
 }
+
+export default { getGifs }
